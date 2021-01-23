@@ -1,0 +1,12 @@
+/** Font Load **/
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500&display=swap');
+
+
+/** Common CSS **/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Heebo', sans-serif;
+}
