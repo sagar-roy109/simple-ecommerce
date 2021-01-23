@@ -1,0 +1,51 @@
+@media all and (max-width: 768px){
+    
+    
+    .header-main{
+        display: block;
+    }
+    .header-main .logo-area{
+        width: 100%;
+    }
+    .header-main .menu-area{
+        width: 100%;
+    }
+    .header-main .menu-area ul li {
+        display: block;
+        
+    }
+    .header-main .menu-area ul{
+        float: none;
+    
+    }
+    .header-main ul li a{
+        padding: 10px 0px;
+    }
+    .header-main .logo-area img{
+        width: 30%;
+        display: block;
+        margin: auto;
+    } 
+
+
+    /** Hero Content **/
+    .hero-content{
+        width: 100%;
+    }
+    .hero-content h1{
+        text-align: center;
+    }
+
+    /** products **/
+    .women-section .women-products,
+.men-section .men-products{
+    display: block;
+}
+}
+
+
+@media all and (max-width:547px){
+    .hero-section .hero-content h1 {
+        font-size: 50px;
+    }
+}

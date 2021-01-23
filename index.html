@@ -12,6 +12,8 @@
 
     <!-- Main CSS  -->
     <link rel="stylesheet" href="style.css">
+     <!-- Responsive CSS -->
+    <link rel="stylesheet" href="responsive.css">
 
     <title>Simple Ecommerce Website</title>
 </head>
@@ -21,14 +23,16 @@
         <div class="container">
             <div class="header-main">
                 <div class="logo-area">
+                   <a href="index.html">
                     <img src="img/logo.png" alt="Logo">
+                   </a>
                 </div>
                 <div class="menu-area">
                     <ul class="menu">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">Women Collection</a></li>
-                        <li><a href="#"> Men's Collection</a></li>
-                        <li><a href="#">Cart <i class="fas fa-shopping-cart"></i></a></li>
+                        <li><a href="#womenSection">Women Collection</a></li>
+                        <li><a href="#menSection"> Men's Collection</a></li>
+                        <li><a href="cart.html">Cart <i class="fas fa-shopping-cart"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -45,5 +49,109 @@
             </div>
         </div>
     </section>
+    
+    <!-- Women Section -->
+    <div class="women-section" id="womenSection">
+        <div class="container">
+            <div class="product-title">
+                <h2>Women's Collection</h2>
+                <hr>
+            </div>
+            <div class="women-products">
+                <div class="product">
+                    <div class="product-image">
+                        <img src="img/w.jpg" alt="product">
+                    </div>
+                    <div class="product-details">
+                        <h6>Tshirt</h6>
+                        <p>50$</p>
+                        <a href="#" class="shop-button">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-image">
+                        <img src="img/w2.jpg" alt="">
+                    </div>
+                    <div class="product-details">
+                        <h6>Tops</h6>
+                        <p>300$</p>
+                        <a href="#" class="shop-button">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-image">
+                        <img src="img/w3.jpg" alt="">
+                    </div>
+                    <div class="product-details">
+                        <h6>Shoe</h6>
+                        <p>200$</p>
+                        <a href="#" class="shop-button">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-image">
+                        <img src="img/w4.jpg" alt="">
+                    </div>
+                    <div class="product-details">
+                        <h6>Jeans</h6>
+                        <p>100$</p>
+                        <a href="#" class="shop-button">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Men Section -->
+    <div class="men-section" id="menSection">
+        <div class="container">
+            <div class="product-title">
+                <h2>Men's Collection</h2>
+                <hr>
+            </div>
+            <div class="men-products">
+                <div class="product">
+                    <div class="product-image">
+                        <img src="img/m5.jpg" alt="product">
+                    </div>
+                    <div class="product-details">
+                        <h6>Tshirt</h6>
+                        <p>50$</p>
+                        <a href="#" class="shop-button">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-image">
+                        <img src="img/m1.jpg" alt="">
+                    </div>
+                    <div class="product-details">
+                        <h6>Tops</h6>
+                        <p>300$</p>
+                        <a href="#" class="shop-button">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-image">
+                        <img src="img/m2.jpg" alt="">
+                    </div>
+                    <div class="product-details">
+                        <h6>Shoe</h6>
+                        <p>200$</p>
+                        <a href="#" class="shop-button">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-image">
+                        <img src="img/m3.jpg" alt="">
+                    </div>
+                    <div class="product-details">
+                        <h6>Jeans</h6>
+                        <p>100$</p>
+                        <a href="#" class="shop-button">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
